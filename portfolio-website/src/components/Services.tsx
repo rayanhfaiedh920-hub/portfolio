@@ -11,21 +11,17 @@ export default function Services() {
     {
       title: "Technical Content Briefing",
       description: "Ensuring content accuracy and depth with detailed briefings for benchmarks, PC builds, and hardware reviews."
-    },
-    {
-      title: "Performance Reporting",
-      description: "Delivering comprehensive analytics and insights to measure campaign impact and ROI."
     }
   ];
 
   return (
-    <section className="py-20 w-full text-center">
-      <h2 className="text-3xl font-bold">Our Services</h2>
-      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-        {services.map((service) => (
-          <div key={service.title} className="bg-gray-800 p-6 rounded-lg">
-            <h3 className="text-xl font-bold text-tech-blue">{service.title}</h3>
-            <p className="mt-4 text-gray-300">{service.description}</p>
+    <section id="services" className="container mx-auto py-20 px-4">
+      <h2 className="text-3xl font-bold text-white text-center mb-12">Services</h2>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {services.map((service, index) => (
+          <div key={service.title} className={`p-8 rounded-lg shadow-lg ${index === 0 ? 'bg-accent text-gray-900' : 'bg-gray-800'}`}>
+            <h3 className={`text-2xl font-bold mb-4 ${index === 0 ? 'text-gray-900' : 'text-white'}`}>{service.title}</h3>
+            <p className={`${index === 0 ? 'text-gray-800' : 'text-gray-400'}`}>{service.description}</p>
           </div>
         ))}
       </div>

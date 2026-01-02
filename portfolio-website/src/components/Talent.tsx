@@ -1,29 +1,19 @@
 export default function Talent() {
   return (
-    <section className="py-20 bg-gray-900 text-white w-full text-center">
-      <h2 className="text-3xl font-bold">The Talent</h2>
-      <div className="mt-8 max-w-4xl mx-auto text-lg">
-        <p className="text-2xl text-tech-blue mb-4">
-          Exclusive access to a 500k+ subscriber Tech/Gaming creator.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6">
-          <div>
-            <p className="text-4xl font-bold">85%</p>
-            <p>Male Audience</p>
-          </div>
-          <div>
-            <p className="text-4xl font-bold">18-34</p>
-            <p>Age Range</p>
-          </div>
-          <div>
-            <p className="text-4xl font-bold">High</p>
-            <p>Engagement in DACH Region</p>
-          </div>
+    <section id="works" className="container mx-auto py-20 px-4 text-center">
+      <h2 className="text-3xl font-bold text-white mb-4">The Talent</h2>
+      <p className="text-lg text-gray-400 max-w-3xl mx-auto mb-12">
+        "You can't use up creativity. The more you use, the more you have in your significant mind."
+      </p>
+
+      <div className="flex justify-center items-center space-x-12 md:space-x-24">
+        <div className="text-center">
+          <p className="text-5xl md:text-6xl font-bold text-accent">500k+</p>
+          <p className="text-lg text-gray-400 mt-2">Subscribers</p>
         </div>
-        <div className="mt-12">
-          <a href="#" className="bg-tech-blue hover:opacity-90 text-white font-bold py-3 px-6 rounded-lg">
-            Download Creator Media Kit
-          </a>
+        <div className="text-center">
+          <p className="text-5xl md:text-6xl font-bold text-accent">85%</p>
+          <p className="text-lg text-gray-400 mt-2">Male Audience</p>
         </div>
       </div>
     </section>

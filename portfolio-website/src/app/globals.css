@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #1a202c; /* deep-blue */
-  --foreground: #A0AEC0; /* slate-400 */
+  --background: #111827; /* A dark slate gray */
+  --foreground: #D1D5DB; /* A light gray for text */
 }
 
 @theme inline {
@@ -11,20 +11,11 @@
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #FFFFFF;
-}
-
-a {
-    color: #0071C5;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }

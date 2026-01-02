@@ -9,9 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'slate-gray': '#2d3748',
-        'deep-blue': '#1a202c',
-        'tech-blue': '#0071C5',
+        'accent': '#FFC107',
       },
     },
   },

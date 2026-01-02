@@ -1,0 +1,13 @@
+
+> portfolio-website@0.1.0 dev
+> next dev
+
+⚠ Port 3000 is in use by an unknown process, using available port 3001 instead.
+▲ Next.js 16.1.1 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.0.2:3001
+
+✓ Starting...
+⨯ Unable to acquire lock at /app/portfolio-website/.next/dev/lock, is GET / 200 in 1548ms (compile: 786ms, render: 762ms)
+If you intended to restart next dev, terminate the other process, and then try again.
+[?25h
